@@ -38,7 +38,7 @@ In case of Active-Active the URL should be <https://PublicIP:50443> for Primary 
 
 ## Updates
 
-## March-2025
+## Dec-2025
 
 - OPNSense 25.1 as default version
 - Azure Linux Agent to 2.12.0.4
