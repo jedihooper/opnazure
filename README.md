@@ -40,6 +40,8 @@ In case of Active-Active the URL should be <https://PublicIP:50443> for Primary 
 
 ### Dec-2025
 
+- OPNSense 25.7 as default version
+- Update Azure Linux Agent to 2.15.0.1
 - Updated FreeBSD to 15.0 (publisher changed from thefreebsdfoundation to freebsd)
 
 ### Mar-2025
