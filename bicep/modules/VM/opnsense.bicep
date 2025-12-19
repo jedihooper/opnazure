@@ -71,9 +71,9 @@ resource OPNsense 'Microsoft.Compute/virtualMachines@2023-07-01' = {
         createOption: 'FromImage'
       }
       imageReference: {
-        publisher: 'thefreebsdfoundation'
-        offer: 'freebsd-14_1'
-        sku: '14_1-release-amd64-gen2-zfs'
+        publisher: 'freebsd'
+        offer: 'freebsd-15_0'
+        sku: '15_0-release-amd64-gen2-zfs'
         version: 'latest'
       }
     }
@@ -102,9 +102,9 @@ resource OPNsense 'Microsoft.Compute/virtualMachines@2023-07-01' = {
     }
   }
   plan: {
-    name: '14_1-release-amd64-gen2-zfs'
-    publisher: 'thefreebsdfoundation'
-    product: 'freebsd-14_1'
+    name: '15_0-release-amd64-gen2-zfs'
+    publisher: 'freebsd'
+    product: 'freebsd-15_0'
   }
 }
 
