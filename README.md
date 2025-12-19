@@ -38,28 +38,31 @@ In case of Active-Active the URL should be <https://PublicIP:50443> for Primary 
 
 ## Updates
 
-## Dec-2025
+### Dec-2025
+
+- Updated FreeBSD to 15.0 (publisher changed from thefreebsdfoundation to freebsd)
+
+### Mar-2025
 
 - OPNSense 25.1 as default version
 - Azure Linux Agent to 2.12.0.4
-- Updated FreeBSD to 15.0 (publisher changed from thefreebsdfoundation to freebsd)
 
-## Aug-2024
+### Aug-2024
 
 - Updated FreeBSD to 14.1.
 - Fixed a bug to deploy in a existing VNet.
 
-## July-2024
+### July-2024
 
 - Added [Serial Console](https://learn.microsoft.com/en-us/troubleshoot/azure/virtual-machines/windows/serial-console-overview#access-serial-console-for-virtual-machines-via-azure-portal) support.
 - FRR plugin for OPNsense is now installed by default.
 
-## May-2024
+### May-2024
 
 - OPNSense 24.1 as default version.
 - Fixed deployment issues.
 
-## Nov-2023
+### Nov-2023
 
 - Added support to OPNsense 23.7 (set as default version)
 - Removed Single NIC scenario support (due to lack of usage for the scenario).
@@ -68,17 +71,17 @@ In case of Active-Active the URL should be <https://PublicIP:50443> for Primary 
   - Updated all Bicep API Versions.
   - Fixed some lint warning due to Bicep recent updates.
 
-## Feb-2023
+### Feb-2023
 - Added support to OPNsense 23.1
 - Added support to select versions (22.7, 23.1)
 
-## October-2022
+### October-2022
 - Updated FreeBSD to 13.1
 - Updated OPNSense to 22.7
 - Updated Azure Linux Agent to 2.8.0
 - Updated Python symbolic link to 3.9
 
-## April-2022
+### April-2022
 - Updated FreeBSD 13 and OPNSense 22.1
 - Added support for Floating IPs in External Load Balance Rules to allow Port Forwarding without causing assymetric issues.
 - Enabled session Sync between Firewalls.
