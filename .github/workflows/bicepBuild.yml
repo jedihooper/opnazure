@@ -3,6 +3,9 @@
 name: BicepBuild
 
 on:
+  #run on manual trigger
+  workflow_dispatch:
+
   push:
     branches:
      #- 'master'
@@ -18,8 +21,6 @@ on:
   #   paths:
   #     - "bicep/*"
   #     - ".github/workflows/bicepBuild.yml"
-
-  workflow_dispatch:
 
 jobs:
   build:
