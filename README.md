@@ -14,7 +14,7 @@ CI Name | Actions Workflow | CI Status |
 
 The template allows you to deploy an OPNsense Firewall VM using the opnsense-bootsrtap installation method. It creates an FreeBSD VM, does a silent install of OPNsense using a modified version of opnsense-bootstrap.sh with the settings provided.
 
-OPNSense is based in FreeBSD what is the official OS image publisher in Azure. This template deploys a FreeBSD 15.0 VM and installs OPNSense using the opnsense-bootstrap installation method. For the first deployment in an Azure Subscription it's ***required to accept the legal terms*** of the Offer with PublisherId: 'freebsd', OfferId: 'freebsd-15_0'.
+OPNSense is based on FreeBSD which is the official OS image publisher in Azure. This template deploys a FreeBSD 15.0 VM and installs OPNSense using the opnsense-bootstrap installation method. For the first deployment in an Azure Subscription it's ***required to accept the legal terms*** of the Offer with PublisherId: 'freebsd', OfferId: 'freebsd-15_0'.
 
 You can accept it using either Azure CLI or Azure PowerShell as follow:
 
